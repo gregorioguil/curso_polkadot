@@ -95,7 +95,7 @@ document.getElementById('calcular').addEventListener('click', function () {
 
 function limparTransacoes() {
   historicoSimulacoes = [];
-  contadorSimulador = [];
+  contadorSimulador = 0;
 
   document.getElementById('historico').innerHTML = '';
   document.getElementById('resultado').innerHTML = '';
